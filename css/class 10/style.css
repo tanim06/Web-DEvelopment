@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-area{
+	background: #2c3e50;
+}
+.logo-area{
+	width: 200px;
+	margin: auto;
+
+}
+.logo-area img{
+	width: 100%;
+	
+}
+.main-area .content-area{
+	width: 75%;
+	margin-right: 5px;
+	float: left;
+	
+}
+.main-area aside{
+	width: 20%;
+	
+	overflow: hidden;
+	
+	
+}
+
+.main-area{
+	width: 90%;
+	margin: auto;
+}
+
+.sidebar h2 , article h2{
+	color: green;
+
+	font-family: tahoma;
+}
+
+.sidebar p , article p{
+	color: ;
+	text-align: left;
+	font-family: tahoma;
+	font-size: 20px;
+}
+
+.main-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+footer p{
+  font-family: tahoma;
+  font-size: 20px;
+ // padding: 10px;
+//  margin-left: 20px;
+  text-align: center;
+  background: #e74c3c;
+  padding: 20px;
+
+}
